@@ -1,0 +1,33 @@
+                                                   @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+                                               @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                                               @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+                                               label {
+                                                   display: block;
+                                                   font: "Shrikhand", "Roboto";
+                                                   color: black;
+                                                   color: #9356DC;
+                                                   color: #FF79DA;
+                                                   color: #99E2D0;
+                                                   color: grey;
+                                                   color: #f2f2f2;
+                                                   color: white;
+                                               }
+                                               /*-------------------------------- Media Queries ------------------------------------*/
+                                               /*----- Écran max 460px -----*/
+                                               
+                                               @media screen and (max-width: 460px) {
+                                                   /*Body*/
+                                                   body {
+                                                       background-color: #FFFF;
+                                                       Margin: 0px 10px 0px;
+                                                       display: flex;
+                                                       font: "Shrikhand", "Roboto";
+                                                       margin: auto;
+                                                       flex-flow: wrap;
+                                                   }
+                                                   .main-body {
+                                                       margin: auto
+                                                   }
+                                                   /*Header*/
+                                                   /*Nouveau*/
+                                                   /*Nouveau*/

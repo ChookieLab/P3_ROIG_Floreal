@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+label {
+    display: block;
+    font: 1rem "Shrikhand", "Roboto";
+    color: #000;
+    color: #9356DC;
+    color: #FF79DA;
+    color: #99E2D0
+}
+
+
+/*Body*/
+
+body {
+    background-color: #FFFF;
+    Margin: 0px 10px 0px;
+    display: flex;
+    font-family: "Roboto";
+    margin: auto;
+    flex-flow: wrap;
+}
+
+.main-body {
+    margin: auto
+}
+
+
+/*Header*/
+
+
+/*Nouveau*/
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+/*Nouveau*/
