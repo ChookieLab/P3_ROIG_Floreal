@@ -1,33 +1,122 @@
-                                                   @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
-                                               @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-                                               @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
-                                               label {
-                                                   display: block;
-                                                   font: "Shrikhand", "Roboto";
-                                                   color: black;
-                                                   color: #9356DC;
-                                                   color: #FF79DA;
-                                                   color: #99E2D0;
-                                                   color: grey;
-                                                   color: #f2f2f2;
-                                                   color: white;
-                                               }
-                                               /*-------------------------------- Media Queries ------------------------------------*/
-                                               /*----- Écran max 460px -----*/
-                                               
-                                               @media screen and (max-width: 460px) {
-                                                   /*Body*/
-                                                   body {
-                                                       background-color: #FFFF;
-                                                       Margin: 0px 10px 0px;
-                                                       display: flex;
-                                                       font: "Shrikhand", "Roboto";
-                                                       margin: auto;
-                                                       flex-flow: wrap;
-                                                   }
-                                                   .main-body {
-                                                       margin: auto
-                                                   }
-                                                   /*Header*/
-                                                   /*Nouveau*/
-                                                   /*Nouveau*/
+                                                                                        @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+                                                                                    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                                                                                    @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+                                                                                    label {
+                                                                                        display: block;
+                                                                                        font: "Shrikhand", "Roboto";
+                                                                                        color: black;
+                                                                                        color: #9356DC;
+                                                                                        color: #FF79DA;
+                                                                                        color: #99E2D0;
+                                                                                        color: grey;
+                                                                                        color: #f2f2f2;
+                                                                                        color: white;
+                                                                                    }
+                                                                                    /*-------------------------------- Media Queries ------------------------------------*/
+                                                                                    /*----- Écran max 460px -----*/
+                                                                                    
+                                                                                    @media screen and (max-width: 460px) {
+                                                                                        /*Body*/
+                                                                                        .body {
+                                                                                            background-color: white;
+                                                                                            Margin: 5%, 10px, 5%;
+                                                                                            display: flex;
+                                                                                            margin: auto;
+                                                                                            width: 100%;
+                                                                                            font: 1rem "Shrikhand", "Roboto";
+                                                                                        }
+                                                                                        /*Header*/
+                                                                                        header {
+                                                                                            display: flex;
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                        .header h1 {
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            font: "Shrikhand";
+                                                                                        }
+                                                                                        header img {
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            height: auto;
+                                                                                            max-width: 45%;
+                                                                                            margin-left: 25%;
+                                                                                            margin-top: 7%;
+                                                                                            margin-bottom: 3%;
+                                                                                        }
+                                                                                        /*Main*/
+                                                                                        /*Recherche*/
+                                                                                        .bloc-recherche {
+                                                                                            display: flex;
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                        .localisation {
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            width: 100%;
+                                                                                            background-color: #f2f2f2;
+                                                                                        }
+                                                                                        .logo-localisation {
+                                                                                            margin-left: 15%;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 3;
+                                                                                            letter-spacing: 20px;
+                                                                                        }
+                                                                                        .texte-recherche input {
+                                                                                            font-size: 18px;
+                                                                                            color: black;
+                                                                                            background-color: #f2f2f2;
+                                                                                            border: none;
+                                                                                            line-height: 3;
+                                                                                        }
+                                                                                        .reservez {
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-content: center;
+                                                                                            /* margin-left: 10%; */
+                                                                                        }
+                                                                                        .reservez h2 {
+                                                                                            font: "Roboto";
+                                                                                            font-weight: 800;
+                                                                                            font-size: 22px;
+                                                                                            margin-right: 10%;
+                                                                                            margin-left: 10%;
+                                                                                            margin-top: 10%;
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        .decouvrez h3 {
+                                                                                            font: "Roboto";
+                                                                                            font-weight: ;
+                                                                                            font-size: 16px;
+                                                                                            margin-right: 5%;
+                                                                                            margin-left: 5%;
+                                                                                            margin-top: 3%;
+                                                                                            margin-top: 3%;
+                                                                                            margin-bottom: 30px;
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        .btn-explorer h4 {
+                                                                                            font: "Roboto";
+                                                                                            font-weight: ;
+                                                                                            font-size: 16px;
+                                                                                            margin-right: 5%;
+                                                                                            margin-left: 5%;
+                                                                                            margin-top: 3%;
+                                                                                            margin-top: 3%;
+                                                                                            margin-bottom: 30px;
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        h3 {
+                                                                                            font: "Roboto";
+                                                                                            font-weight: ;
+                                                                                            font-size: 16px;
+                                                                                            margin-right: 5%;
+                                                                                            margin-left: 5%;
+                                                                                            margin-top: 3%;
+                                                                                            margin-top: 3%;
+                                                                                            margin-bottom: 30px;
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        /*Fonctionnement*/
+                                                                                        /*Restaurants*/
+                                                                                        /*Footer*/
